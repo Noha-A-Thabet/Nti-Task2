@@ -1,0 +1,82 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+/* start h1  */
+h1 {
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 6rem;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: transparent;
+    background: url(../images/giphy3.gif) no-repeat center/100% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 0;
+}
+
+/* end h1 */
+
+/* start h2 */
+h2 {
+    color: rgb(112, 44, 56);
+}
+
+/* end h2 */
+
+
+/* start Secondparagrap */
+.secondPara {
+    column-count: 3;
+    column-gap: 20px;
+    text-align: justify;
+    column-rule: 6px dashed rgb(112, 44, 56);
+    ;
+}
+
+/* end Secondparagrap */
+
+
+/* start hr */
+hr {
+    background-color: rgb(112, 44, 56);
+    width: 50%;
+    height: 4px;
+    margin-top: 40px;
+}
+
+/* end hr */
+
+
+/* start thirdParagrap */
+.thirdPara {
+    border: 3px dashed rgb(112, 44, 56);
+    padding: 20px;
+    width: 1200px;
+    margin: 50px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.thirdPara p {
+    font-family: 'Freehand', cursive;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* end thirdParagrap */
+
+/* start footer */
+footer {
+    background-color: rgb(112, 44, 56);
+    color: white;
+    font-size: 1.5rem;
+    height: 110px;
+    line-height: 100px;
+}
+
+/* end footer */
